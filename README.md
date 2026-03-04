@@ -1,42 +1,37 @@
-# php8.0和php8.1 for phpStudy（小皮面板）（内含所需VC运行库）
+# phpStudy v8.1 离线版（小皮面板）（内含所需VC运行库）
 
-phpstudy 8.1是个很好用的PHP集成环境软件，可惜官方一年多没更新了，官方只支持到PHP7.4，因为近期项目需要用到PHP8.1，所以自己动手配置了，考虑到很多网友可能也有这个需要，所以这里共享一下phpstudy8.1快速配置php8.0和php8.1的方法。已配置好的文件，直接复制粘贴后，就可以拿来用了。
+phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在未联网的内网用到phpStudy，所以自己动手做成了离线版，在官方原版的基础上已经新增配置了支持PHP8.1、PHP8.2、PHP8.3、PHP8.4、PHP8.5、MySQL5.7和MySQL8.0等版本。考虑到很多网友可能也有这个需求，所以这里共享一下phpstudy8.1离线版。该版本已配置好的文件，无需安装，直接复制粘贴到D盘后，解压后就可以用了。
 
-【声明：这不算是开源项目，为的只是方便那些有需要的人，不喜欢可以绕道但请不要指责哦~】
+### phpstudy8.1离线版安装方法
 
-
-### phpstudy8.1安装php8.0.14nts和php8.1.1nts的方法
-
-按照“安装说明.txt”，复制粘贴即可正常使用。
+按照“安装说明.txt”，复制粘贴后解压即可正常使用。
 
 
 ### 安装说明
 
+1、将phpstudy_pro.part01.rar至phpstudy_pro.part08.rar共8个压缩包下载到D盘，在“phpstudy_pro.part01.rar”文件上右键，解压缩到D盘根目录下，即：D:\phpstudy_pro\。
 
-1、首先确保phpstudy 8.1（其他版本没测试，可自行测试）安装在默认目录，即：D:\phpstudy_pro\。
-     如果不是默认目录，可以自行修改php.ini文件，将里面的：extension_dir = "D:\phpstudy_pro\Extensions\php\php8.0.14nts\ext" 修改为对应的目录即可。
+注意：务必解压到D盘，否则可能运行phpstudy失败。如果你不是默认目录D:\phpstudy_pro\，可以自行修改每个软件的配置文件，如php.ini文件，将里面的：extension_dir = "D:\phpstudy_pro\Extensions\php\php8.0.2nts\ext" 修改为对应的目录即可。有点复杂，建议使用默认路径。
 
-2、直接复制php8.0.14nts和php8.1.1nts两个文件夹到：D:\phpstudy_pro\Extensions\php
+2、安装VC运行库：双击目录里的“VC_redist.x64--Visual Studio 2015、2017、2019 和 2022 年.exe”文件安装，安装后即可正常运行PHP8.0+各个版本。
 
-3、安装VC运行库：双击目录里的“VC_redist.x64--Visual Studio 2015、2017、2019 和 2022 年.exe”文件安装。
-
-4、重启phpstudy 8.1，即可选新安装的PHP版本了。
-
-PS：如果重启phpstudy后PHP8仍不可用，请确认已经安装完成VC运行库。（测试方法：可以双击php.exe看看能否运行）
-
+3、打开：“D:\phpstudy_pro\COM\phpstudy_pro.exe”（可自行创建快捷方式到桌面），双击打开这个可执行文件即可运行phpstudy8.1离线版。
 
 
 ### 感谢支持：
 
 请到Gitee和GitHub给我点Star，谢谢您的支持！
 
-Gitee：https://gitee.com/dengzhenhua/php8.0-8.1-for-phpstudy
+Gitee：https://gitee.com/dengzhenhua/phpstudy
 
-GitHub：https://github.com/dengcao/php8.0-php8.1-for-phpStudy
+GitHub：https://github.com/dengcao/phpstudy
 
+### 声明：
+
+内含的php、phpStudy和VC运行库等版权归原作者所有，本人仅是做成离线版方便大家，如使用请遵守原版权方约定。
 
 ### 关于
 
 开发：[邓草博客 blog.5300.cn](http://blog.5300.cn)
 
-赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
+赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [琼殿技术社区 bbs.qiongdian.com](http://bbs.qiongdian.com)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
