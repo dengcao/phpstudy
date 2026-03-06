@@ -1,6 +1,10 @@
-# phpStudy v8.1 离线版（小皮面板）（内含所需VC运行库）
+# phpStudy v8.1 离线版一键安装包（小皮面板）（内含所需VC运行库）
 
-phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在未联网的内网用到phpStudy，所以自己动手做成了离线版，在官方原版的基础上已经新增配置了支持PHP8.1、PHP8.2、PHP8.3、PHP8.4、PHP8.5、MySQL5.7和MySQL8.0等版本。考虑到很多网友可能也有这个需求，所以这里共享一下phpstudy8.1离线版。该版本已配置好的文件，无需安装，直接复制粘贴到D盘后，解压后就可以用了。
+phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在未联网的内网用到phpStudy，所以自己动手做成了离线版，在官方原版的基础上新增配置了PHP8.1、PHP8.3、PHP8.4、PHP8.5等版本，即目前集成了PHP5.2至PHP8.5、MySQL5.0至MySQL8.0、Apache2.4、Nginx1.15至Nginx1.25、redis3.0、FTP0.9.6、FileZilla3.50、composer1.8至composer2.5等全部版本。考虑到很多网友可能也有这个需求，所以这里共享一下phpstudy8.1离线版一键安装包。该版本已配置好的文件，无需安装，直接复制粘贴到D盘后，解压后就可以用了。
+
+### 支持的操作系统版本
+
+支持的操作系统版本为：Win2008 R2/2012/2016/7/10等。
 
 ### phpstudy8.1离线版安装方法
 
@@ -9,7 +13,7 @@ phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在
 
 ### 安装说明
 
-1、将phpstudy_pro.part01.rar至phpstudy_pro.part08.rar共8个压缩包下载到D盘，在“phpstudy_pro.part01.rar”文件上右键，解压缩到D盘根目录下，即：D:\phpstudy_pro\。
+1、将phpstudy_pro.part01.rar至phpstudy_pro.part09.rar共9个压缩包下载到D盘，在“phpstudy_pro.part01.rar”文件上右键，解压缩到D盘根目录下，即：D:\phpstudy_pro\。
 
 注意：务必解压到D盘，否则可能运行phpstudy失败。如果你不是默认目录D:\phpstudy_pro\，可以自行修改每个软件的配置文件，如php.ini文件，以php8.0.30nts为例，将里面的：extension_dir = "D:\phpstudy_pro\Extensions\php\php8.0.30nts\ext"修改为对应的目录即可。有点复杂，建议使用默认路径。
 
