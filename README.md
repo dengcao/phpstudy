@@ -17,7 +17,7 @@ phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在
 
 注意：务必解压到D盘，否则可能运行phpstudy失败。如果你不是默认目录D:\phpstudy_pro\，可以自行修改每个软件的配置文件，如php.ini文件，以php8.0.30nts为例，将里面的：extension_dir = "D:\phpstudy_pro\Extensions\php\php8.0.30nts\ext"修改为对应的目录即可。有点复杂，建议使用默认路径。
 
-2、安装VC运行库：双击目录里的“VC_redist.x64--Visual Studio 2015、2017、2019 和 2022 年.exe”文件安装，安装后即可正常运行PHP8.0+各个版本。
+2、安装VC运行库：打开“VC运行库”目录，双击目录里的“VC_redist.x64--Visual Studio 2015、2017、2019 和 2022 年.exe”和“VC_14_redist.x64”等文件安装，安装后即可正常运行PHP8.0+各个版本。如还发现某个PHP版本运行错误或者页面加载时间过长，安装PHP版本对应的VC运行库即可。
 
 3、打开：“D:\phpstudy_pro\COM\phpstudy_pro.exe”（可自行创建快捷方式到桌面），双击打开这个可执行文件即可运行phpstudy8.1离线版。
 
