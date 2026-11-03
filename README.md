@@ -13,7 +13,7 @@ phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在
 
 ### 安装说明
 
-1、第一次安装，必须先安装“phpstudy原版/phpStudy_8.1.1.3-64位.zip”（[下载地址](https://github.com/dengcao/phpstudy/phpstudy原版/phpStudy_8.1.1.3-64位-（64位安装包，如已安装过可不用重复安装。如需32位安装包请自行到官网下载但本离线版只适合64位系统）.zip)），解压后双击安装，安装目录必须选择：D:\phpstudy_pro\。安装完成后，停止全部Nginx/Apache/MySQL……等服务。停止后，退出phpstudy。
+1、第一次安装，必须先安装“phpstudy原版/phpStudy_8.1.1.3-64位.zip”（[下载地址](https://github.com/dengcao/phpstudy/phpstudy原版/)），解压后双击安装，安装目录必须选择：D:\phpstudy_pro\。安装完成后，停止全部Nginx/Apache/MySQL……等服务。停止后，退出phpstudy。
 
 2、将phpstudy_pro.part01.rar至phpstudy_pro.part10.rar共10个压缩包下载到D盘，在“phpstudy_pro.part01.rar”文件上右键，解压缩到D盘根目录下，即：D:\phpstudy_pro\。全部覆盖掉旧版。
 
