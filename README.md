@@ -27,14 +27,14 @@ phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在
 
 
 ### 【2026-11-26 更新说明】
-**1、修复PHP漏洞。**2026年11月19日，PHP曝出7个严重安全漏洞，官方已发布了对应补丁版本：PHP8.2.36/8.3.37/8.4.28/8.5.13/8.6.0。本次更新已将新版本全部更新，使用时只需在：网站→管理→PHP版本，选择对应的版本即可切换。也可以通过：网站→管理→PHP扩展，开启您需要的PHP拓展组件。
+**1、修复PHP漏洞。** 2026年11月19日，PHP曝出7个严重安全漏洞，官方已发布了对应补丁版本：PHP8.2.36/8.3.37/8.4.28/8.5.13/8.6.0。本次更新已将新版本全部更新，使用时只需在：网站→管理→PHP版本，选择对应的版本即可切换。也可以通过：网站→管理→PHP扩展，开启您需要的PHP拓展组件。
 
-**2、修复Nginx漏洞。**2026年11月18日，Nginx发布重要安全更新，修复了10项漏洞。因为phpstudy目前迟迟没有更新Nginx版本，所以本次更新将Nginx1.15.11替换为Nginx1.30.8，将Nginx1.16.1替换为Nginx1.31.10。也就是说，启动Nginx1.15.11，相当于启动Nginx1.30.8；启动Nginx1.16.1相当于启动Nginx1.31.10。
+**2、修复Nginx漏洞。** 2026年11月18日，Nginx发布重要安全更新，修复了10项漏洞。因为phpstudy目前迟迟没有更新Nginx版本，所以本次更新将Nginx1.15.11替换为Nginx1.30.8，将Nginx1.16.1替换为Nginx1.31.10。也就是说，启动Nginx1.15.11，相当于启动Nginx1.30.8；启动Nginx1.16.1相当于启动Nginx1.31.10。
 如需要继续使用原版Nginx1.15.11/1.16.1，只需要将D:\phpstudy_pro\Extensions\Nginx1.15.11--bak和Nginx1.16.1--bak恢复到对应目录即可。
 
-**3、更新VC运行库。**VC运行库目录里新增了：VC_redist.arm64-（VC++2015-2022）.exe，部分国产电脑需要安装这个才能正常使用PHP。
+**3、更新VC运行库。** VC运行库目录里新增了：VC_redist.arm64-（VC++2015-2022）.exe，部分国产电脑需要安装这个才能正常使用PHP。
 
-**4、Nginx请求头部支持Authorization。**配置让Nginx把Authorization头原样传递给后端的PHP-FPM，使其支持常见的AI请求。如不需要，可打开文件：D:\phpstudy_pro\Extensions\Nginx1.25.2（此处改为对应版本号）\conf\fastcgi_params，删除其中的“fastcgi_param  HTTP_AUTHORIZATION $http_authorization;”即可。
+**4、Nginx请求头部支持Authorization。** 配置让Nginx把Authorization头原样传递给后端的PHP-FPM，使其支持常见的AI请求。如不需要，可打开文件：D:\phpstudy_pro\Extensions\Nginx1.25.2（此处改为对应版本号）\conf\fastcgi_params，删除其中的“fastcgi_param  HTTP_AUTHORIZATION $http_authorization;”即可。
 
 
 ### 【2026-10-22 更新说明】
@@ -109,6 +109,6 @@ GitHub：https://github.com/dengcao/phpstudy
 
 ### 关于
 
-开发：[邓草博客 blog.5300.cn](http://blog.5300.cn)
+制作：[邓草博客 blog.5300.cn](http://blog.5300.cn)
 
 赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [源码社区 bbs.ym.gs](http://bbs.ym.gs)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)  &ensp;  [AI创作助手 aiczzs.com](http://aiczzs.com)  &ensp;  [AI一键生成 aiyjsc.com](http://aiyjsc.com)  &ensp;  [API中转站 apizz.vip](http://apizz.vip)
