@@ -34,6 +34,8 @@ phpStudy8.1是个很好用的PHP集成环境软件，因为近期项目需要在
 
 **3、更新VC运行库。**VC运行库目录里新增了：VC_redist.arm64-（VC++2015-2022）.exe，部分国产电脑需要安装这个才能正常使用PHP。
 
+**4、Nginx请求头部支持Authorization。**配置让Nginx把Authorization头原样传递给后端的PHP-FPM，使其支持常见的AI请求。如不需要，可打开文件：D:\phpstudy_pro\Extensions\Nginx1.25.2（此处改为对应版本号）\conf\fastcgi_params，删除其中的“fastcgi_param  HTTP_AUTHORIZATION $http_authorization;”即可。
+
 
 ### 【2026-10-22 更新说明】
 近日，PHP曝出两个严重安全漏洞（代号“php2shell”），漏洞编号为CVE-2026-109618、CVE-2026-109619。该漏洞可导致未经身份验证的远程攻击者通过发送特制POST请求，触发内存破坏并最终实现远程代码执行，从而获取服务器控制权限。漏洞影响PHP 8.5.x＜8.5.12、PHP 8.4.x＜8.4.27、PHP 8.3.x＜8.3.36、PHP 8.2.x＜8.2.35以及8.1以前版本。由于漏洞危害严重，已导致多国网站大规模紧急下线。PHP作为一种开源编程语言，广泛应用于WordPress、Drupal、Joomla和Magento等网站平台开发。目前，PHP官方已发布最新版本（8.5.12、8.4.27、8.3.36、8.2.35）修复该漏洞，详见：https://www.php.net/archive/2026.php#2026-10-21-5 建议受影响用户及时更新至安全版本，消除安全隐患，严防发生网络攻击事件。
